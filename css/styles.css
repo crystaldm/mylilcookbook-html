@@ -59,7 +59,7 @@ table {
 	width: 100%;
 }
 
-/* favorites button */
+/* header */
 #heart-icon {
 	color: #fff;
 	font-size: 1.5em;
@@ -72,6 +72,12 @@ table {
 	float: right;
 }
 
+#back-arrow {
+	font-size: 2em;
+	color: #EE674F;
+	opacity: 0.5;
+}
+
 /* headings & body */
 h1 {
 	color: #96c93c;
@@ -82,7 +88,7 @@ h1 {
 	margin-bottom: .5em;
 }
 
-p {
+p, ul li {
 	font-family: 'mergelight', sans-serif;
 }
 
@@ -100,6 +106,72 @@ p {
 	color: #f4872d;
 }
 
-#underline {
+/* recipe page */
+#recipe-top {
+	padding-bottom: 1em;
+	border-bottom: 2px dashed #545454;
+}
+
+#recipe-c img {
+	width: 100%;
+	margin-bottom: 1em;
+}
+
+#recipe-c li, p {
+	font-size: 1.5em;
+	color: #545454;
+}
+
+#recipe-steps {
+	margin-top: 1.5em;
+}
+
+#recipe-steps img{
+	border: thin solid #D3D3D3;
+}
+
+/********************
+******* TABLET STYLES
+*********************/
+
+@media only screen and (min-width: 480px) {
+
+#menu-c h1 {
+	margin-left: 1em;
+}
+
+.image-item {
+	width: 23%;
+	display: inline-block;
+	margin-left: 1em;
+}
+
+#recipe-c {
+	overflow: hidden;
+}
+
+#recipe-top {
+	overflow: hidden;
+}
+
+#recipe-c img {
+	width: 40%;
+	float: left;
+	margin-right: 2em;
+}
+
+.recipe-item{
+	margin-right: .45em;
+	width: 24%;
+	display: inline-block;
+}
+
+#recipe-steps img{
+	width: 100%;
+}
+
+#recipe-steps p {
+	margin-bottom: 1em;
+}
 
 }
